@@ -7,10 +7,9 @@ class DroidRunAgent:
 
     async def run(self, instruction: str, max_retries: int = -1) -> bool:
         planner = Planner()
-        info, tasks = await planner.get_action_queue(instruction, {})
+        info, graph = await planner.get_state_machine_graph(instruction, {})
         print(info)
-        for task in tasks:
-            print(task)
+        print(graph)
 
         for _ in range(max_retries):
             # supervisor bekommt graph (state maschine) 
