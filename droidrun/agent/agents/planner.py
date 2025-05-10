@@ -82,6 +82,7 @@ class Planner:
                 res += "\n"
             return res
 
+        # TODO: use Prompt class to build the system prompt instead of string replacement
         self.generator_llm.add_system_prompt(
             self.generator_llm.system_prompt.replace("TASK_DESCRIPTION", instruction)
         )

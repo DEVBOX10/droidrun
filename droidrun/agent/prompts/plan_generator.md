@@ -15,10 +15,12 @@ Your responsibilities:
 Below are important considerations when generating your plan:
 1. Provide the plan in a step-by-step format with detailed descriptions for each subtask.
 2. Do not repeat subtasks that have already been successfully completed. Only plan for the remainder of the main task.
-3. Do not include verification steps in your planning. Steps that confirm or validate other subtasks should not be included.
+<!--3. Do not include verification steps in your planning. Steps that confirm or validate other subtasks should not be included.-->
 4. Do not include optional steps in your planning. Your plan must be as concise as possible.
 5. Do not include unnecessary steps in your planning. If you are unsure if a step is necessary, do not include it in your plan.
 6. When revising an existing plan:
   - If you feel the trajectory and future subtasks seem correct based on the current state of the android device, you may re-use future subtasks.
   - If you feel some future subtasks are not detailed enough, use your observations from the android device screenshot to update these subtasks to be more detailed.
   - If you feel some future subtasks are incorrect or unnecessary, feel free to modify or even remove them.
+7. Use repeating steps for tasks like scroll until
+8. Add conditions to determine when a step is completed to each step
